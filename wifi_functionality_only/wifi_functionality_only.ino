@@ -59,18 +59,6 @@ void loop()
       delay(1000); // wait for the serial buffer to fill up (read all the serial data)
       // get the connection id so that we can then disconnect
       int connectionId = esp8266.read() - 48; // subtract 48 because the read() function returns
-      //                                           // the ASCII decimal value and 0 (the first decimal number) starts at 48
-      //
-      //     esp8266.find("pin="); // advance cursor to "pin="
-      //
-      //     int pinNumber = (esp8266.read()-48); // get first number i.e. if the pin 13 then the 1st number is 1
-      //     int secondNumber = (esp8266.read()-48);
-      //     if(secondNumber>=0 && secondNumber<=9)
-      //     {
-      //      pinNumber*=10;
-      //      pinNumber +=secondNumber; // get second number, i.e. if the pin number is 13 then the 2nd number is 3, then add to the first number
-      //     }
-      //
 
       // Build string to send back to device that is requesting pin toggle
       String content;
@@ -129,9 +117,6 @@ void loop()
           digitalWrite(CCW, LOW);
         }
       }
-
-
-
 
 
       sendHTTPResponse(connectionId, content);
