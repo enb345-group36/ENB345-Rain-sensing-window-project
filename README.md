@@ -1,5 +1,5 @@
 # ENB345-Rain-sensing-window-project
-Project Code
+# Project Code
 
 1) open_close_window_final.ino
 
@@ -24,3 +24,5 @@ Ensure Android application code is uploaded to phone to enable remote control.
 
 Basic mobile phone application to allow remote control of aforementioned window. Upload
 to phone via Android Studio.
+
+Credit has to be given to allaboutee.com for their communication skeletons.
