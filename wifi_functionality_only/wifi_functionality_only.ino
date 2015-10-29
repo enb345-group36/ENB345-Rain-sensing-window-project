@@ -43,7 +43,7 @@ void setup()
   delay(10000);
   sendCommand("AT+CIFSR\r\n", 1000, DEBUG); // get ip address
   sendCommand("AT+CIPMUX=1\r\n", 1000, DEBUG); // configure for multiple connections
-  sendCommand("AT+CIPSERVER=1,53\r\n", 1000, DEBUG); // turn on server on port 80
+  sendCommand("AT+CIPSERVER=1,53\r\n", 1000, DEBUG); // turn on server on port 53
 
   Serial.println("Server Ready");
 }
