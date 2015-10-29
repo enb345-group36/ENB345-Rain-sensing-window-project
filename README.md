@@ -12,6 +12,12 @@ active while IR distance sensor is within the programmed distance of a set flag.
 This is the Arduino code to enable remote control of the window only. Sensors will not
 open or close the window. However, notifications can be received on status of the sensors
 or window. There are 5 possible status notifications -
+<ol>
+  <li>first item</li>
+  <li>second item</li>
+  <li>third item</li>
+</ol>
+
       1. NO RAIN, WINDOW CLOSED
       2. NO RAIN, WINDOW OPEN
       3. NO RAIN, WINDOW OBSTRUCTED
