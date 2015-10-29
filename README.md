@@ -28,4 +28,4 @@ Ensure Android application code is uploaded to phone to enable remote control.
 Basic mobile phone application to allow remote control of aforementioned window. Upload
 to phone via Android Studio.
 
-Credit has to be given to allaboutee.com for their communication skeletons.
+###### Credit has to be given to allaboutee.com for their communication skeletons.
